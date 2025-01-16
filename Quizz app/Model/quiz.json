@@ -1,0 +1,104 @@
+[
+   {
+     "question": "Which keyword is used to declare a constant in Swift?",
+     "options": ["let", "var", "const", "static"],
+     "answer": "let"
+   },
+   {
+     "question": "What is Swift primarily used for?",
+     "options": ["Android app development", "Web development", "iOS and macOS app development", "Game development only"],
+     "answer": "iOS and macOS app development"
+   },
+   {
+     "question": "How do you define an optional in Swift?",
+     "options": ["let value: Int", "let value: Int?", "let value = Optional(Int)", "let value: Int!"],
+     "answer": "let value: Int?"
+   },
+   {
+     "question": "Which of the following correctly defines a function in Swift?",
+     "options": ["function myFunction() -> Void", "func myFunction() -> Void { }", "def myFunction() -> Void { }", "func myFunction(Void)"],
+     "answer": "func myFunction() -> Void { }"
+   },
+   {
+     "question": "How can you safely unwrap an optional value?",
+     "options": ["if let value = optionalValue { }", "value = optionalValue!", "let value = optionalValue as Int", "optionalValue.unwrap()"],
+     "answer": "if let value = optionalValue { }"
+   },
+   {
+     "question": "Which collection type allows duplicate values in Swift?",
+     "options": ["Array", "Set", "Dictionary", "Tuple"],
+     "answer": "Array"
+   },
+   {
+     "question": "What does the guard statement do in Swift?",
+     "options": [
+       "It checks for a condition and executes a block if true.",
+       "It unwraps optionals and exits the current scope if conditions fail.",
+       "It prevents memory leaks.",
+       "It creates a new guard condition block."
+     ],
+     "answer": "It unwraps optionals and exits the current scope if conditions fail."
+   },
+   {
+     "question": "How do you define a computed property in a class?",
+     "options": [
+       "var property: Int { get { return value } }",
+       "let property: Int { }",
+       "computed var property: Int { return value }",
+       "class property: Int { }"
+     ],
+     "answer": "var property: Int { get { return value } }"
+   },
+   {
+     "question": "What is the purpose of the defer statement?",
+     "options": [
+       "It delays code execution until a specific time.",
+       "It schedules code to execute when the current scope ends.",
+       "It retries failed operations.",
+       "It cancels an asynchronous task."
+     ],
+     "answer": "It schedules code to execute when the current scope ends."
+   },
+   {
+     "question": "Which keyword is used to create a subclass in Swift?",
+     "options": ["override", "extends", "inherit", "class"],
+     "answer": "override"
+   },
+   {
+     "question": "What is the default access level for classes in Swift?",
+     "options": ["open", "private", "internal", "public"],
+     "answer": "internal"
+   },
+   {
+     "question": "Which operator is used to combine optional values with a fallback value?",
+     "options": ["&&", "??", "?:", "??:"],
+     "answer": "??"
+   },
+   {
+     "question": "What is the primary use of protocol in Swift?",
+     "options": [
+       "Memory management",
+       "Error handling",
+       "Defining methods and properties for adoption",
+       "Thread synchronization"
+     ],
+     "answer": "Defining methods and properties for adoption"
+   },
+   {
+     "question": "How can you define a typealias for a type in Swift?",
+     "options": [
+       "typealias NewType = OldType",
+       "alias OldType as NewType",
+       "typedef NewType = OldType",
+       "let NewType = OldType"
+     ],
+     "answer": "typealias NewType = OldType"
+   },
+   {
+     "question": "How do you handle errors in Swift?",
+     "options": ["do-try-catch", "catch-try", "try-do-catch", "if-try-catch"],
+     "answer": "do-try-catch"
+   }
+ ]
+
+
